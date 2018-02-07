@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 50px;
   padding: 20px;
   color: white;
 }
@@ -22,7 +22,33 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.items {
+  display: inline-block;
+  border-color: #aacccc;
+  border-width: thin;
+  border-style: none;
+  margin-bottom: 50px;
+}
+
+.item {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 20px;
+}
+
+.slider {
+  width: 200px;
+  display: block;
+}
+
+.toggle {
+  width: 200px;
+}
+
+.warning {
+  color: red;
+  font-style: italic;
 }
